@@ -32,7 +32,12 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <mainClass>uz.bunyodbek.Main</mainClass>
+                    <execuble>java</execuble>
+                    <argument>
+                    <argument>-cp</argument>
+                        <classpath/>
+                    <argument>uz.bunyodbek.Main</argument>
+                    </argument>
                 </configuration>
             </plugin>
         </plugins>
