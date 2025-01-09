@@ -36,7 +36,7 @@
                     <argument>
                     <argument>-cp</argument>
                         <classpath/>
-                    <argument>uz.bunyodbek.Main</argument>
+                    <mainClass>uz.bunyodbek.Main</mainClass>
                     </argument>
                 </configuration>
             </plugin>
